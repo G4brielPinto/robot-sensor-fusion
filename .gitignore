@@ -1,0 +1,29 @@
+# Python environments and notebook artefacts
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Generated results, figures and local data
+data/
+datasets/
+outputs/
+results/
+artifacts/
+*.csv
+*.tsv
+*.npy
+*.npz
+*.png
+*.gif
+*.mp4
+
+# Local tools
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
